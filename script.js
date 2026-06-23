@@ -1,150 +1,131 @@
 const perguntas = [
   {
-    pergunta: "O que significa IoT?",
-    alternativas: [
-      "Internet of Technology",
-      "Internet of Things",
-      "Integrated Online Technology",
-      "Interface of Technology"
-    ],
+    pergunta: "Qual é a função principal de um roteador?",
+    alternativas: ["Armazenar dados", "Encaminhar pacotes", "Executar programas", "Exibir páginas"],
     correta: 1
   },
   {
-    pergunta: "Qual dispositivo é exemplo de IoT?",
-    alternativas: ["Livro", "Smartwatch", "Caderno", "Calculadora"],
-    correta: 1
-  },
-  {
-    pergunta: "Qual componente coleta dados do ambiente?",
-    alternativas: ["Sensor", "Monitor", "Teclado", "Mouse"],
+    pergunta: "Qual dispositivo conecta computadores em uma rede local?",
+    alternativas: ["Switch", "Impressora", "Monitor", "HD externo"],
     correta: 0
   },
   {
-    pergunta: "HTML serve para:",
-    alternativas: ["Estruturar páginas", "Banco de dados", "Servidor", "Rede"],
+    pergunta: "Qual protocolo é usado para acessar páginas web?",
+    alternativas: ["HTTP", "FTP", "SMTP", "DNS"],
     correta: 0
   },
   {
-    pergunta: "Qual tag cria um link?",
-    alternativas: ["img", "a", "div", "link"],
-    correta: 1
+    pergunta: "O que significa IP?",
+    alternativas: ["Internet Protocol", "Internal Program", "Integrated Process", "Input Port"],
+    correta: 0
   },
   {
-    pergunta: "Qual tag cria um parágrafo?",
-    alternativas: ["h1", "span", "p", "br"],
+    pergunta: "Qual protocolo é usado para envio de e-mails?",
+    alternativas: ["SMTP", "HTTP", "DNS", "FTP"],
+    correta: 0
+  },
+  {
+    pergunta: "Qual camada do modelo OSI trata da transmissão física?",
+    alternativas: ["Camada Física", "Camada de Aplicação", "Camada de Rede", "Camada de Transporte"],
+    correta: 0
+  },
+  {
+    pergunta: "Qual protocolo traduz nomes de domínio em endereços IP?",
+    alternativas: ["DNS", "HTTP", "FTP", "SMTP"],
+    correta: 0
+  },
+  {
+    pergunta: "Qual dispositivo divide uma rede em sub-redes?",
+    alternativas: ["Roteador", "Switch", "Hub", "Servidor"],
+    correta: 0
+  },
+  {
+    pergunta: "Qual protocolo é usado para transferência de arquivos?",
+    alternativas: ["FTP", "SMTP", "HTTP", "DNS"],
+    correta: 0
+  },
+  {
+    pergunta: "Qual porta padrão é usada pelo HTTPS?",
+    alternativas: ["80", "21", "443", "25"],
     correta: 2
   },
   {
-    pergunta: "CSS é usado para:",
-    alternativas: ["Programar", "Estilizar", "Hospedar", "Armazenar"],
+    pergunta: "Qual protocolo é usado para envio de mensagens instantâneas?",
+    alternativas: ["XMPP", "HTTP", "FTP", "SMTP"],
+    correta: 0
+  },
+  {
+    pergunta: "Qual camada do modelo OSI garante entrega confiável?",
+    alternativas: ["Transporte", "Rede", "Aplicação", "Física"],
+    correta: 0
+  },
+  {
+    pergunta: "Qual protocolo é usado para acesso remoto seguro?",
+    alternativas: ["SSH", "Telnet", "FTP", "SMTP"],
+    correta: 0
+  },
+  {
+    pergunta: "Qual endereço identifica uma máquina em uma rede?",
+    alternativas: ["MAC", "IP", "DNS", "URL"],
     correta: 1
   },
   {
-    pergunta: "Propriedade para cor do texto:",
-    alternativas: ["font-size", "background", "color", "border"],
-    correta: 2
-  },
-  {
-    pergunta: "Propriedade para fundo:",
-    alternativas: ["background-color", "color", "font", "size"],
+    pergunta: "Qual protocolo é usado para envio de e-mails entre servidores?",
+    alternativas: ["SMTP", "POP3", "IMAP", "HTTP"],
     correta: 0
   },
   {
-    pergunta: "Seletor de ID:",
-    alternativas: [".", "#", "*", "@"],
-    correta: 1
-  },
-  {
-    pergunta: "JavaScript serve para:",
-    alternativas: ["Interatividade", "Estrutura", "Banco", "Rede"],
+    pergunta: "Qual protocolo é usado para receber e-mails?",
+    alternativas: ["POP3", "SMTP", "FTP", "DNS"],
     correta: 0
   },
   {
-    pergunta: "Função para mostrar mensagem:",
-    alternativas: ["show", "popup", "alert", "print"],
-    correta: 2
-  },
-  {
-    pergunta: "Evento de clique:",
-    alternativas: ["onmove", "onclick", "onchange", "onload"],
-    correta: 1
-  },
-  {
-    pergunta: "Como declarar variável?",
-    alternativas: ["new", "create", "let", "string"],
-    correta: 2
-  },
-  {
-    pergunta: "parseInt() faz o quê?",
-    alternativas: [
-      "Converte para inteiro",
-      "Cria texto",
-      "Cria variável",
-      "Mostra alerta"
-    ],
+    pergunta: "Qual protocolo permite sincronização de e-mails em múltiplos dispositivos?",
+    alternativas: ["IMAP", "POP3", "SMTP", "FTP"],
     correta: 0
   },
   {
-    pergunta: "Sensor de temperatura mede:",
-    alternativas: ["Luz", "Som", "Temperatura", "Movimento"],
-    correta: 2
-  },
-  {
-    pergunta: "Atuador pode:",
-    alternativas: [
-      "Ligar lâmpada",
-      "Medir temperatura",
-      "Salvar dados",
-      "Criar banco"
-    ],
+    pergunta: "Qual camada do modelo OSI define o formato dos dados?",
+    alternativas: ["Apresentação", "Aplicação", "Rede", "Transporte"],
     correta: 0
   },
   {
-    pergunta: "Qual tag cria botão?",
-    alternativas: ["btn", "button", "click", "action"],
-    correta: 1
-  },
-  {
-    pergunta: "Centralizar texto:",
-    alternativas: [
-      "text-align:center",
-      "align:center",
-      "center:true",
-      "font:center"
-    ],
+    pergunta: "Qual protocolo é usado para comunicação sem conexão?",
+    alternativas: ["UDP", "TCP", "HTTP", "FTP"],
     correta: 0
   },
   {
-    pergunta: "alert('Olá') faz:",
-    alternativas: ["Cria botão", "Mostra mensagem", "Muda cor", "Fecha página"],
-    correta: 1
-  },
-  {
-    pergunta: "IoT depende de:",
-    alternativas: ["Conectividade", "Caneta", "Livro", "Papel"],
+    pergunta: "Qual protocolo é usado para comunicação confiável?",
+    alternativas: ["TCP", "UDP", "HTTP", "FTP"],
     correta: 0
   },
   {
-    pergunta: "Qual linguagem executa no navegador?",
-    alternativas: ["Java", "C#", "JavaScript", "SQL"],
-    correta: 2
-  },
-  {
-    pergunta: "Qual tag insere imagem?",
-    alternativas: ["img", "photo", "image", "src"],
+    pergunta: "Qual dispositivo repete sinais em uma rede?",
+    alternativas: ["Hub", "Switch", "Roteador", "Servidor"],
     correta: 0
   },
   {
-    pergunta: "Qual propriedade altera tamanho da fonte?",
-    alternativas: ["font-size", "text-size", "size", "font"],
+    pergunta: "Qual tecnologia permite múltiplas redes virtuais em um switch?",
+    alternativas: ["VLAN", "VPN", "DNS", "NAT"],
     correta: 0
   },
   {
-    pergunta: "Qual linguagem estiliza páginas?",
-    alternativas: ["HTML", "CSS", "PHP", "SQL"],
-    correta: 1
+    pergunta: "Qual protocolo é usado para acesso remoto a desktops?",
+    alternativas: ["RDP", "SSH", "FTP", "HTTP"],
+    correta: 0
+  },
+  {
+    pergunta: "Qual técnica traduz endereços privados em públicos?",
+    alternativas: ["NAT", "DNS", "DHCP", "ARP"],
+    correta: 0
+  },
+  {
+    pergunta: "Qual protocolo atribui endereços IP automaticamente?",
+    alternativas: ["DHCP", "DNS", "NAT", "FTP"],
+    correta: 0
   }
 ];
+
 
 const quiz = document.getElementById("quizForm");
 
